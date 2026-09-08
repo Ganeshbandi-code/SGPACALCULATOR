@@ -16,7 +16,7 @@ class Student {
     }
 
     void calculateCGPA() {
-        cgpa = totalGradePoints / subjects;
+       cgpa =totalGradePoints/subjects // when all subjects has same credits
     }
 
     void display() {
@@ -25,7 +25,7 @@ class Student {
     }
 }
 
-public class CGPACalculator {
+public class SGPACalculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -50,4 +50,4 @@ public class CGPACalculator {
 
         sc.close();
     }
-} }
+} 
