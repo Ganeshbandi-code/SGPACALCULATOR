@@ -16,7 +16,7 @@ class Student {
     }
 
     void calculateCGPA() {
-       cgpa =totalGradePoints/subjects // when all subjects has same credits
+       cgpa =totalGradePoints/subjects; // when all subjects has same credits
     }
 
     void display() {
